@@ -1,0 +1,11 @@
+<div class="col-4">
+    <h3>Carrito</h3>
+    <ul>
+        @for (autopart of (cartList$ | async); track autopart.id) {
+            <li>
+                {{autopart.article}}: {{autopart.quantity}}
+            </li>
+        }
+    </ul>
+</div>
+

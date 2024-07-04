@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">.:ADM:.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" [routerLink]="['/']">Inicio</a>
+        <a class="nav-link" href="#">Ventas</a>
+        <a class="nav-link" href="#">Servicio tecnico</a>
+        <a class="nav-link" href="#">Clientes</a>
+        <a class="nav-link" [routerLink]="['/about']">Contacto</a>
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- APRETAR CTRL + C + K PARA COMENTAR LINEA -->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="text-center bg-dark">
+    <span class="text-light">{{title}} 2024&copy;</span>
+</footer>
