@@ -1,6 +1,6 @@
 # ADM
 
-Se eligio hacer un proyecto sobre venta de autopartes.
+Bienvenido a ADM, un proyecto desarrollado como parte del seminario de Angular. Esta aplicación web está diseñada para facilitar la compra de repuestos de autos, ofreciendo una interfaz intuitiva y funcional. Los usuarios pueden explorar una amplia gama de repuestos, consultar detalles y realizar compras de manera eficiente. Este proyecto demuestra el uso de Angular para crear aplicaciones dinámicas y responsivas.
 
 Nombre y apellido: Juan Pablo Ostertag
 DNI: 33666155
